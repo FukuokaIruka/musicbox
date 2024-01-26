@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T06:11:05.564Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="3wbwV1Xi8wQIg7x_mhzr" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-26T06:12:32.561Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="C4CktCbW8gbN_U80guFr" version="23.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="musicbox.s">
     <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,7 +240,20 @@
         <mxCell id="VxzQCR-OaugW05rsNh1s-13" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411" y="420" as="sourcePoint" />
-            <mxPoint x="711" y="390" as="targetPoint" />
+            <mxPoint x="650" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="390" />
+              <mxPoint x="720" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6W3w-JrGv-maR_D3YxFg-1" value="&lt;div&gt;xの位置を0に&lt;/div&gt;&lt;div&gt;リセット&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6W3w-JrGv-maR_D3YxFg-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-12" target="6W3w-JrGv-maR_D3YxFg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="670" as="sourcePoint" />
+            <mxPoint x="595" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
