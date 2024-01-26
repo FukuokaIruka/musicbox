@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T05:46:25.846Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="bAMezUeTXCtvsrizMopp" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-26T06:00:03.849Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="O3I0xObIcN9paRHrkCxt" version="23.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="musicbox.s">
     <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,8 +127,23 @@
         <mxCell id="eeWpiL0ap0NVNHi9yB_d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eeWpiL0ap0NVNHi9yB_d-1" target="eeWpiL0ap0NVNHi9yB_d-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eeWpiL0ap0NVNHi9yB_d-4" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="eeWpiL0ap0NVNHi9yB_d-4" value="0で初期化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="198" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eeWpiL0ap0NVNHi9yB_d-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eeWpiL0ap0NVNHi9yB_d-1" target="eeWpiL0ap0NVNHi9yB_d-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeWpiL0ap0NVNHi9yB_d-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="208" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeWpiL0ap0NVNHi9yB_d-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eeWpiL0ap0NVNHi9yB_d-4" target="eeWpiL0ap0NVNHi9yB_d-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -139,40 +154,52 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s2659hMvVKCwklSkQRCQ-1" value="音楽鳴ってる?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="181" y="220" width="160" height="40" as="geometry" />
+          <mxGeometry x="84" y="145" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-2" value="&lt;div&gt;はい&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="341" y="330" as="sourcePoint" />
-            <mxPoint x="261" y="300" as="targetPoint" />
+            <mxPoint x="244" y="255" as="sourcePoint" />
+            <mxPoint x="164" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-3" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="420" y="240" as="targetPoint" />
+            <mxPoint x="413" y="255" as="sourcePoint" />
+            <mxPoint x="323" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-4" value="スイッチの情報" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="220" width="120" height="40" as="geometry" />
+          <mxGeometry x="323" y="145" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-5" value="スイッチが押されているか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="390" y="290" width="180" height="50" as="geometry" />
+          <mxGeometry x="293" y="215" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-4" target="s2659hMvVKCwklSkQRCQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="560" y="280" as="targetPoint" />
+            <mxPoint x="413" y="255" as="sourcePoint" />
+            <mxPoint x="463" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2659hMvVKCwklSkQRCQ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
+        <mxCell id="s2659hMvVKCwklSkQRCQ-7" value="はい" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="480" y="370" as="targetPoint" />
+            <mxPoint x="413" y="255" as="sourcePoint" />
+            <mxPoint x="383" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2659hMvVKCwklSkQRCQ-8" value="&lt;div&gt;チャタリング対策&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="370" width="120" height="40" as="geometry" />
+        <mxCell id="s2659hMvVKCwklSkQRCQ-8" value="&lt;div&gt;チャタリング対策で&lt;/div&gt;&lt;div&gt;時間を設定&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="295" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="65" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-2" target="s2659hMvVKCwklSkQRCQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293" y="345" as="sourcePoint" />
+            <mxPoint x="343" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="350" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
