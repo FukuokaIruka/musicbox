@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T05:30:21.024Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="I-HV61JKR49ScorAgRyj" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-26T05:41:38.094Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="EIeFtklXEpZ4s57V28kz" version="23.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="musicbox.s">
     <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,47 +115,11 @@
             <mxPoint x="271" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-7" value="音楽鳴ってる?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="181" y="220" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-5" target="IwgBFRndILumX_rVNW5C-7">
+        <mxCell id="IwgBFRndILumX_rVNW5C-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="341" y="330" as="sourcePoint" />
-            <mxPoint x="391" y="280" as="targetPoint" />
+            <mxPoint x="261" y="220" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-9" value="&lt;div&gt;はい&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="341" y="330" as="sourcePoint" />
-            <mxPoint x="261" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-10" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="420" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-17" value="スイッチの情報" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="220" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-18" value="スイッチが押されているか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="390" y="290" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-17" target="IwgBFRndILumX_rVNW5C-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="560" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IwgBFRndILumX_rVNW5C-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="330" as="sourcePoint" />
-            <mxPoint x="480" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwgBFRndILumX_rVNW5C-21" value="&lt;div&gt;チャタリング対策&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="370" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -165,6 +129,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s2659hMvVKCwklSkQRCQ-1" value="音楽鳴ってる?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="181" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-2" value="&lt;div&gt;はい&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="330" as="sourcePoint" />
+            <mxPoint x="261" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-3" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-4" value="スイッチの情報" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-5" value="スイッチが押されているか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-4" target="s2659hMvVKCwklSkQRCQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2659hMvVKCwklSkQRCQ-8" value="&lt;div&gt;チャタリング対策&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
