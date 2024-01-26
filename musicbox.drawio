@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T06:00:03.849Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="O3I0xObIcN9paRHrkCxt" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-26T06:05:13.811Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="TX0V1G_jQaenC-iLxmm8" version="23.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="musicbox.s">
     <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,8 +198,23 @@
             <mxPoint x="343" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VxzQCR-OaugW05rsNh1s-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="298" y="350" width="170" height="80" as="geometry" />
+        <mxCell id="VxzQCR-OaugW05rsNh1s-4" value="目標時間を超えたか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="298" y="370" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-8" target="VxzQCR-OaugW05rsNh1s-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-6" value="&lt;div&gt;いいえ&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="570" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
