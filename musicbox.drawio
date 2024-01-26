@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T06:08:10.623Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="N8KuF0jtAWf_T24Hm0fe" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-26T06:11:05.564Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="3wbwV1Xi8wQIg7x_mhzr" version="23.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="musicbox.s">
     <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,83 +149,98 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dulfKxjlP9g0YedhLNRG" name="move_musical_scale">
-    <mxGraphModel dx="1602" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s2659hMvVKCwklSkQRCQ-1" value="音楽鳴ってる?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="84" y="145" width="160" height="40" as="geometry" />
+          <mxGeometry x="57" y="145" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-2" value="&lt;div&gt;はい&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="244" y="255" as="sourcePoint" />
-            <mxPoint x="164" y="225" as="targetPoint" />
+            <mxPoint x="217" y="255" as="sourcePoint" />
+            <mxPoint x="137" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-3" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="255" as="sourcePoint" />
-            <mxPoint x="323" y="165" as="targetPoint" />
+            <mxPoint x="386" y="255" as="sourcePoint" />
+            <mxPoint x="296" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-4" value="スイッチの情報" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="323" y="145" width="120" height="40" as="geometry" />
+          <mxGeometry x="296" y="145" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-5" value="スイッチが押されているか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="293" y="215" width="180" height="50" as="geometry" />
+          <mxGeometry x="266" y="215" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-4" target="s2659hMvVKCwklSkQRCQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="255" as="sourcePoint" />
-            <mxPoint x="463" y="205" as="targetPoint" />
+            <mxPoint x="386" y="255" as="sourcePoint" />
+            <mxPoint x="436" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-7" value="はい" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="255" as="sourcePoint" />
-            <mxPoint x="383" y="295" as="targetPoint" />
+            <mxPoint x="386" y="255" as="sourcePoint" />
+            <mxPoint x="356" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s2659hMvVKCwklSkQRCQ-8" value="&lt;div&gt;チャタリング対策で&lt;/div&gt;&lt;div&gt;時間を設定&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="323" y="295" width="120" height="40" as="geometry" />
+          <mxGeometry x="296" y="295" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="104" y="65" width="120" height="40" as="geometry" />
+          <mxGeometry x="77" y="65" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-2" target="s2659hMvVKCwklSkQRCQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="293" y="345" as="sourcePoint" />
-            <mxPoint x="343" y="295" as="targetPoint" />
+            <mxPoint x="266" y="345" as="sourcePoint" />
+            <mxPoint x="316" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-4" value="目標時間を超えたか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="298" y="370" width="170" height="50" as="geometry" />
+          <mxGeometry x="271" y="370" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-8" target="VxzQCR-OaugW05rsNh1s-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
+            <mxPoint x="363" y="420" as="sourcePoint" />
+            <mxPoint x="413" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VxzQCR-OaugW05rsNh1s-6" value="&lt;div&gt;いいえ&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5">
+        <mxCell id="VxzQCR-OaugW05rsNh1s-6" value="&lt;div&gt;いいえ&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2659hMvVKCwklSkQRCQ-5" target="VxzQCR-OaugW05rsNh1s-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="570" y="300" as="targetPoint" />
+            <mxPoint x="363" y="420" as="sourcePoint" />
+            <mxPoint x="543" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="570" y="240" />
+              <mxPoint x="591" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-8" value="xの現在位置を取得" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="531" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-9" value="xが8と等しいか?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="505" y="370" width="130" height="40" as="geometry" />
+          <mxGeometry x="526" y="370" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VxzQCR-OaugW05rsNh1s-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="340" as="sourcePoint" />
-            <mxPoint x="570" y="370" as="targetPoint" />
+            <mxPoint x="721" y="340" as="sourcePoint" />
+            <mxPoint x="591" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-11" value="&lt;div&gt;はい&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411" y="420" as="sourcePoint" />
+            <mxPoint x="591" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-12" value="&lt;div&gt;xの位置を0に&lt;/div&gt;&lt;div&gt;リセット&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VxzQCR-OaugW05rsNh1s-13" value="いいえ" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VxzQCR-OaugW05rsNh1s-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411" y="420" as="sourcePoint" />
+            <mxPoint x="711" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
